@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 20px 20px 0px 20px;
+  padding: 20px;
+}
+.header__nav ul {
+  background-color: black;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  margin: 0px 20px;
+}
+.header__nav ul li:hover {
+  cursor: pointer;
+  color: rgb(166, 163, 157);
+}
+img {
+  width: 250px;
+  height: 300px;
+}
+main {
+  text-align: center;
+  margin: 20px;
+}
+
+.imageone,
+.imagetwo,
+.imagethree,
+.imagefour {
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  margin: 2px;
+  border: 2px solid black;
+  vertical-align: top;
+}
+
+.imageone__button,
+.imagetwo__button,
+.imagethree__button,
+.imagefour__button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-bottom: 2px;
+}
+.imageone__button:hover,
+.imagetwo__button:hover,
+.imagethree__button:hover,
+.imagefour__button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+  color: black;
+}
+
+.imageone__title,
+.imagetwo__title,
+.imagethree__title,
+.imagefour__title,
+.imageone__desc,
+.imagetwo__desc,
+.imagethree__desc,
+.imagefour__desc {
+  padding:2px;
+}
+
+.about{
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about__form{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.about__form input{
+    height: 25px;
+    width: 250px;
+}
+
+.about__form button{
+    width:320px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: yellow;
+}
+.about__form button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 153, 0);
+    color: black;
+}

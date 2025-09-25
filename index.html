@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header">seven samurai Hotel</h1>
+      <nav class="header__nav">
+        <ul>
+          <li a href="#home">Home</li>
+          <li a href="#receipe">Receipe</li>
+          <li a href="#contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="imageone">
+        <img src="img/chicken.jpg" alt="chicken" loading="eager" />
+        <h2 class="imageone__title">chicken larb</h2>
+        <p class="imageone__desc">
+          chicken larb plate with dried, chilies, tomatoes, and spring.
+        </p>
+        <button class="imageone__button">Order Now</button>
+      </div>
+      <div class="imagetwo">
+        <img src="img/stew.jpg" alt="foodimage" loading="eager" />
+        <h2 class="imagetwo__title">stew</h2>
+        <p class="imagetwo__desc">
+          Hearty stew with tender chicken and fresh peas.
+        </p>
+        <button class="imagetwo__button">Order Now</button>
+      </div>
+      <div class="imagethree">
+        <img src="img/lamp.jpg" alt="foodimage" loading="eager" />
+        <h2 class="imagethree__title">roasted lamb</h2>
+        <p class="imagethree__desc">
+          roasted lamb with caramelized onion vegetables greens.
+        </p>
+        <button class="imagethree__button">Order Now</button>
+      </div>
+      <div class="imagefour">
+        <img src="img/soup.jpg" alt="foodimage" loading="eager" />
+        <h2 class="imagefour__title">red soup</h2>
+        <p class="imagefour__desc">
+          Red lentil soup with slice lemon breadcrumbs.
+        </p>
+        <button class="imagefour__button">Order Now</button>
+      </div>
+    </main>
+    <footer>
+      <div class="about">
+        <h2 class="about__title">Contact Us</h2>
+        <form class="about__form" action="#" method="post">
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="age">Age:</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  min="1"
+                  placeholder="Enter Your Age"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit">Send</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
