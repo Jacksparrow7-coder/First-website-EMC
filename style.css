@@ -40,7 +40,6 @@ main {
 .imagefour {
   display: inline-block;
   width: 250px;
-  height: 400px;
   margin: 2px;
   border: 2px solid black;
   vertical-align: top;
@@ -53,8 +52,7 @@ main {
   background-color: black;
   color: white;
   border: none;
-  padding: 3px;
-  margin-bottom: 2px;
+  padding: 2px;
 }
 .imageone__button:hover,
 .imagetwo__button:hover,
@@ -73,37 +71,37 @@ main {
 .imagetwo__desc,
 .imagethree__desc,
 .imagefour__desc {
-  padding:2px;
+  padding: 2px;
 }
 
-.about{
-    margin: 20px;
-    padding: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
+.about {
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-.about__form{
-    display: flex;
-    width: 300px;
-    margin: auto;
-    padding: 10px;
+.about__form {
+  display: flex;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
 }
 
-.about__form input{
-    height: 25px;
-    width: 250px;
+.about__form input {
+  height: 25px;
+  width: 150px;
 }
 
-.about__form button{
-    width:320px;
-    padding: 5px;
-    margin-top: 10px;
-    background-color: yellow;
+.about__form button {
+  width: 200px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: yellow;
 }
-.about__form button:hover{
-    cursor: pointer;
-    background-color: rgb(255, 153, 0);
-    color: black;
+.about__form button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+  color: black;
 }
